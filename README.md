@@ -1,13 +1,15 @@
 # pouchdb-authentication-electron-test
 
-**Clone and run for a quick way to see an Electron in action.**
+![A screenshot showing the electron app in use](screenshot.png)
 
 This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
 
 I created this project to quickly check most of the pouchdb-authentication features.
 
 ## To Use
+make sure you are running a couchDB or pouchDB on localhost:5984. Or change the line in index.html.
 
+Then:
 ```bash
 # Install dependencies and run the app
 npm install && npm start
