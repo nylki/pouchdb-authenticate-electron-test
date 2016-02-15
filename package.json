@@ -4,6 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
+    "install": "bower install",
     "start": "electron main.js"
   },
   "repository": {
