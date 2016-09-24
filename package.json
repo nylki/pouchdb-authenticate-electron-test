@@ -4,8 +4,11 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "install": "bower install",
-    "start": "electron main.js"
+    "start": "electron ."
+  },
+  "dependencies": {
+    "pouchdb-authentication": "^0.5.5",
+    "pouchdb-browser": "^6.0.5"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,6 @@
   },
   "homepage": "https://github.com/atom/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+    "electron": "^1.4.1"
   }
 }
