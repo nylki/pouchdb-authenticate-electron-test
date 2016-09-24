@@ -7,9 +7,7 @@ This is a minimal Electron application based on the [Quick Start Guide](http://e
 I created this project to quickly check most of the pouchdb-authentication features.
 
 ## To Use
-make sure you are running a couchDB or pouchDB on localhost:5984. Or change the line in index.html.
-Also, additionally to npm you need bower to install *pouchdb*. If you don't want to use bower, you can download
-*pouchdb* and *pouchdb-authentication* manually and accordingly change the paths in index.html.
+make sure you are running a couchDB or pouchDB on localhost:5984. Or change the line in index.html. Also make sure to have *npm* installed.
 
 Then:
 ```bash
