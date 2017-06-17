@@ -82,11 +82,6 @@ section {
     </section>
 
     </main>
-
-
-
-    <script src="node_modules/pouchdb-browser/lib/index.js" charset="utf-8"></script>
-    <script src="node_modules/pouchdb-authentication/dist/pouchdb.authentication.min.js" charset="utf-8"></script>
     
     
     
@@ -94,7 +89,8 @@ section {
     <script type="text/javascript">
 
     'use strict'
-
+    var PouchDB = require('pouchdb-browser');
+    PouchDB.plugin(require('pouchdb-authentication'));
     var db = new PouchDB('http://localhost:5984/testdb', {skipSetup: true});
 
     var signupUser = function () {
